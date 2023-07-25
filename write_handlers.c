@@ -166,7 +166,7 @@ return (write(1, &buffer[ind], length) + write(1, &buffer[0], hello));
 }
 else 
 {
-return (write(1, &buffer[0], i) + write(1, &buffer[ind], length));
+return (write(1, &buffer[0], hitty) + write(1, &buffer[ind], length));
 }
 }
 return (write(1, &buffer[ind], length));
